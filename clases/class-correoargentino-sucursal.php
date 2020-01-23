@@ -170,7 +170,7 @@ class WC_Correoargentino_Sucursal extends WC_Shipping_Method{
 			}
 		}else{
 			
-			if ($cpostalAltA){
+			if (isset($cpostalAltA)){
 		
 				foreach ($codigosPostales[$cpostalAltA] as $clave => $valor){
 					
