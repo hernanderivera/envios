@@ -22,6 +22,7 @@ Tiene todos los códigos postales relevantes cargados. En ese sentido es solo ac
 - En el archivo /includes/limites cargan los ID de los productos que no tengan gratis, moto, o correo (revisar igual, porque viene con IDs precargados)
 
 - En el archivo /includes/zonas pueden activar/desactivar sucursales problemáticas, zonas que no manden pot moto, etc
+
 ////////////////////
 
 
