@@ -1,6 +1,6 @@
 # envios
 
-Comparto el plugin que hice y usp en mi sitio para todos los envíos
+Comparto el plugin que hice y uso en mi sitio para todos los envíos
 
 Está personalizado para las formas de envíos que usamos nosotros: 
 
