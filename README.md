@@ -14,7 +14,7 @@ Es muy rústico (todas las opciones se manejan desde los .php), pero les puede s
 
 Tiene todos los códigos postales relevantes cargados. En ese sentido es solo activar y listo
 
-/*
+/*/*/*/*/*/*/*/*
 - Después de activar el plugin, crean la zona de envío "Argentina" y agregan los tres tipos de envíos (o solo los que usen)
 
 - En el archivo /includes/tarifas cargan las tarifas que tengan del correo o motomensajería
@@ -22,7 +22,7 @@ Tiene todos los códigos postales relevantes cargados. En ese sentido es solo ac
 - En el archivo /includes/limites cargan los ID de los productos que no tengan gratis, moto, o correo (revisar igual, porque viene con IDs precargados)
 
 - En el archivo /includes/zonas pueden activar/desactivar sucursales problemáticas, zonas que no manden pot moto, etc
-*/
+*/*/*/*/*/*/*/*/
 
 
 Es mi primer plugin hecho de 0, sin conocimientos previos de PHP más que algún tutorial colgado por ahí.
