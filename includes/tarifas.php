@@ -5,61 +5,55 @@ if ( ! defined( 'ABSPATH' ) ) {exit;}
 
 ////////////////////////////// ENVÍO GRATIS DESDE ////////////////////
 
-$envioGratis = 2000;
+$envioGratis = 200000;
 
 
-////////////////////////////// TARIFAS A DOMICILIO REGIONAL	////////////////////
+////////////////////////////// TARIFAS A DOMICILIO REGIONAL ////////////////////
 $domicilioTarifaRegional = array(
-	1 => 340,
-	3 => 345,
-	5 => 385,
-	10 => 480,
-	15 => 565,
-	20 => 645,
-	25 => 780,
-	30 => 905,
-	'adicional' => 53
-);	
-////////////////////////////// TARIFAS A DOMICILIO NACIONAL	////////////////////
-$domicilioTarifaNacional = array(
-	1 => 380,
-	3 => 445,
-	5 => 480,
-	10 => 615,
-	15 => 780,
-	20 => 985,
-	25 => 1210,
-	30 => 1515,
-	'adicional' => 68
+	1 => 9500,
+	5 => 10600,
+	10 => 13400,
+	15 => 15900,
+	20 => 18100,
+	25 => 21400,
+	'adicional' => 60
 );
-////////////////////////////// TARIFAS A SUCURSAL REGIONAL	////////////////////
+
+////////////////////////////// TARIFAS A DOMICILIO NACIONAL ////////////////////
+$domicilioTarifaNacional = array(
+	1 => 11500,
+	5 => 13400,
+	10 => 17900,
+	15 => 21800,
+	20 => 25000,
+	25 => 30100,
+	'adicional' => 75
+);
+
+////////////////////////////// TARIFAS A SUCURSAL REGIONAL ////////////////////
 $sucursalTarifaRegional = array(
-	1 => 230,
-	3 => 255,
-	5 => 300,
-	10 => 385,
-	15 => 495,
-	20 => 560,
-	25 => 690,
-	30 => 845,
-	'adicional' => 53
-);	
-////////////////////////////// TARIFAS A SUCURSAL NACIONAL	////////////////////
+    1 => $domicilioTarifaRegional[1] * 0.95,
+    5 => $domicilioTarifaRegional[5] * 0.95,
+    10 => $domicilioTarifaRegional[10] * 0.95,
+    15 => $domicilioTarifaRegional[15] * 0.95,
+    20 => $domicilioTarifaRegional[20] * 0.95,
+    25 => $domicilioTarifaRegional[25] * 0.95,
+    'adicional' => $domicilioTarifaRegional['adicional'] * 0.95
+);
+////////////////////////////// TARIFAS A SUCURSAL NACIONAL ////////////////////
 $sucursalTarifaNacional = array(
-	1 => 245,
-	3 => 295,
-	5 => 340,
-	10 => 475,
-	15 => 645,
-	20 => 855,
-	25 => 1110,
-	30 => 1360,
-	'adicional' => 68
+    1 => $domicilioTarifaNacional[1] * 0.95,
+    5 => $domicilioTarifaNacional[5] * 0.95,
+    10 => $domicilioTarifaNacional[10] * 0.95,
+    15 => $domicilioTarifaNacional[15] * 0.95,
+    20 => $domicilioTarifaNacional[20] * 0.95,
+    25 => $domicilioTarifaNacional[25] * 0.95,
+    'adicional' => $domicilioTarifaNacional['adicional'] * 0.95
 );
 ////////////////////////////// TARIFAS FEX	////////////////////
 $tarifaFlex = array(
-	0 => 210,
-	1 => 300,
-	2 => 460
+	0 => 5000,
+	1 => 9000,
+	2 => 12000
 );	
 
